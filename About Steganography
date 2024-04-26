@@ -1,0 +1,26 @@
++Image steganography is a technique used to hide secret information within digital images. 
++Unlike cryptography, which focuses on making the message unreadable through encryption, steganography aims to make the existence of the message itself undetectable.
+
++In image steganography, the secret information, which could be text, another image, or any data, is embedded within the pixels of the cover image. 
++This embedding process is done in such a way that the changes to the cover image are imperceptible to the human eye. 
++Common methods of embedding include modifying the least significant bits of the pixel values, altering color channels slightly, or using frequency domain techniques like discrete cosine transform (DCT) for JPEG images.
+
++The resulting stego-image appears identical or nearly identical to the original cover image.
++To extract the hidden information, one needs to use the appropriate steganographic algorithm or tool to reverse the embedding process and retrieve the secret data.
+
++Image steganography finds applications in various fields including covert communication, digital watermarking, copyright protection, and data hiding for security purposes. +However, it's important to note that while steganography can obscure the existence of a message, it does not provide encryption or secure communication on its own.
+
+********************************************************************************************************************************************************************************
+
+Types of Steganography:
+
+-->Image Steganography: Hiding information within digital images by subtly modifying the pixel values or metadata of the image.
+-->Audio Steganography: Concealing data within audio files by manipulating the audio waveform or imperceptibly altering certain properties of the sound.
+-->Video Steganography: Embedding secret information within digital videos by modifying frames, frames' metadata, or the audio track.
+-->Text Steganography: Concealing data within text documents by using techniques such as modifying whitespace, altering letter casing, or employing invisible characters.
+-->File Steganography: Hiding information within various types of files, including documents, executables, or archives, by appending or altering the file structure.
+-->Network Steganography: Transmitting hidden data over a network by exploiting protocols or network traffic patterns, without arousing suspicion.
+-->Spatial Domain Steganography: Concealing information directly within the spatial domain of an image, audio, or video signal, usually by modifying the raw data.
+-->Transform Domain Steganography: Embedding data in the frequency or transform domains of signals, such as using Fourier transforms or discrete cosine transforms.
+-->Linguistic Steganography: Encoding messages using linguistic techniques, like word order, word choice, or syntactic structures, to hide information within a text.
+-->Digital Watermarking: Embedding imperceptible marks or signatures within digital media to authenticate or protect against unauthorized copying or manipulation.
